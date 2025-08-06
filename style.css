@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #0056b3;
+  color: #fff;
+  padding: 15px 20px;
+}
+header h1 {
+  margin-bottom: 10px;
+}
+nav a {
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  background: #e0f0ff;
+  padding: 20px;
+  text-align: center;
+}
+section {
+  padding: 20px;
+}
+.produk-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 200px;
+}
+.item img {
+  width: 100%;
+  border-radius: 4px;
+}
+.item button {
+  margin-top: 10px;
+  padding: 8px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.item button:hover {
+  background: #0056b3;
+}
+.kategori ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.kategori li {
+  background: #d1ecf1;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.kontak a {
+  color: #007bff;
+  text-decoration: none;
+}
+footer {
+  background: #0056b3;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.keranjang ul {
+  margin: 10px 0;
+}
+.keranjang button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
